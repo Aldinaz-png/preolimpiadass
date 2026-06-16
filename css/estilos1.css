@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 185, 185);
+    font-family: sans-serif;
+}
+header {
+    background-color: #1e1b5a;
+    color: white;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerizquierda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#tituloLogo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.headerimg {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+#pantalla-tienda {
+    display: flex;
+    max-width: 1400px;
+    margin: 20px auto;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+
+#paginaiquierda {
+    background-color: #ebd4bd;
+    width: 250px;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+#categoriah1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+
+
+#paquetes {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.paquete {
+    background-color: #ebd4bd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.packImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.btn-paquete {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1e1b5a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-paquete:hover {
+    background-color: #2d287f;
+}

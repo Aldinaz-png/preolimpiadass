@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 185, 185);
+    font-family: sans-serif; 
+}
+header {
+    border-color: #08236d;
+    background-color: #1e1b5a;
+    color: white;
+    width: 100%;
+    padding: 10px 15px;
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+.headerimg{
+width: 35px;
+height: 35px;
+}
+#header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#centrodiv{
+    background-image: url('../imgs/avionfondo.jpg');
+  width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-position: center;
+}
+#buscador{
+    width: 50%;
+    padding: 12px 45px 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ebd4bd;
+    font-size: 1.1rem;
+    color: #000000;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+#textocentro{
+    display: flex;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+#line{
+     flex: 1;
+    height: 3px;
+    background-color: black;
+}
+#seccion1{
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.1;
+}
+#abajodiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto 10px auto;
+    width: 90%;
+}
+#paquetes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.paquete{
+    background-color: #ebd4bd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.packImg{
+    width: 100%;          
+    height: 200px;        
+    object-fit: cover;    
+    border-radius: 8px;   
+    display: block;       
+}
+.btn-paquete {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1e1b5a; 
+    color: white;
+    text-decoration: none;     
+    border-radius: 5px;      
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease; 
+}
+footer {
+    background-color: #1e1b5a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#headerizquierda{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
