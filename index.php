@@ -24,14 +24,14 @@ $resultado = $conn->query($sql);
                 <ul>
                     <li><a href="login.php"><img class="headerimg" src="imgs/usuario.png" alt="Usuario"></a></li>
                     <li><a href="carrito.php"><img class="headerimg" src="imgs/carrito.png" alt="Carrito"></a></li>
-                    <li><a href="#"><img class="headerimg" src="imgs/ajustes.png" alt="Ajustes"></a></li>
+                   
                 </ul>
             </div>
         </nav>
     </header>
    
     <div id="centrodiv">
-        <div id="textocentro"><h2>Viajes Asegurados</h2></div>
+        <div id="textocentro"><h2>Viajes Asegurados hola</h2></div>
         <input type="text" placeholder="¿A donde quieres?" id="buscador">
     </div>
 
@@ -57,7 +57,7 @@ $resultado = $conn->query($sql);
                     // Asia
                     case 'China': $imagen = 'china.png'; break;
                     case 'Vietnam': $imagen = 'vietnam.png'; break;
-                    case 'Corea del Sur': $imagen = 'korea.pmg.webp'; break;
+                    case 'Corea del Sur': $imagen = 'korea.png'; break;
                     case 'Mongolia': $imagen = 'mongolia.png'; break;
                     case 'Japón': $imagen = 'japon.png'; break;
                     case 'Tailandia': $imagen = 'tailandia.png'; break;
